@@ -42,4 +42,5 @@ model User {
   ///////////////////
 
   // Additional fields can be added here:
+  Task Task[]
 }
