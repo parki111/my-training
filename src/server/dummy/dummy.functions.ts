@@ -1,3 +1,5 @@
+import { createTasks } from "./functions/create-tasks";
+import { deleteTasks } from "./functions/delete-tasks";
 import {
   cleanJwts,
   createUsers,
@@ -9,4 +11,6 @@ export const dummyFunctions: AnyDummyFunction[] = [
   createUsers,
   deleteUsers,
   cleanJwts,
+	deleteTasks,
+	createTasks,
 ];
